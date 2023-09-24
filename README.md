@@ -1,2 +1,2 @@
-# PySide6_learning
-I'm creating a repository for my PySide6 study, more exciting things are coming.
+# calculator_PySide6
+This is my first project, and it will be a calculator using PySide6.
