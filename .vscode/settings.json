@@ -1,0 +1,58 @@
+{
+    // Visual Studio Code Settings
+    //"window.zoomLevel": 2, // Set the window zoom level to 2.
+    //"editor.fontSize": 24, // Set the font size for the code editor to 24.
+    //"editor.hover.enabled": true, // Enable hover tooltips in the code editor.
+    //"workbench.startupEditor": "none", // Set the startup editor to none.
+    //"explorer.compactFolders": false, // Disable compact folders in the file explorer.
+    //"workbench.colorTheme": "OM Theme (Default Dracula Italic)", // Set the color theme for the workspace.
+    //"workbench.iconTheme": "material-icon-theme", // Set the icon theme for the workspace.
+    //"editor.rulers": [80, 120], // Show vertical rulers at column positions 80 and 120.
+    //"editor.fontFamily": "'Fira Code', Consolas, 'Dank Mono', 'Source Code Pro', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace", // Set the font family for the code editor.
+    //"editor.fontLigatures": false, // Disable font ligatures in the code editor.
+  
+    // Terminal Settings
+    //"terminal.integrated.fontSize": 24, // Set the font size for the integrated terminal to 24.
+    //"terminal.integrated.fontFamily": "", // Use the system's default font for the terminal.
+    //"code-runner.executorMap": {
+      //"python": "clear ; python -u" // Configure the code runner to run Python scripts with clearing the terminal.
+    //},
+    //"code-runner.runInTerminal": true, // Run code in the terminal.
+    //"code-runner.ignoreSelection": true, // Ignore selected text when running code.
+  
+    // Python Settings
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.autopep8", // Set the default code formatter for Python.
+      "editor.tabSize": 4, // Set the tab size to 4 spaces.
+      "editor.insertSpaces": true, // Insert spaces instead of tabs for indentation.
+      "editor.formatOnSave": true, // Format code automatically on save.
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true, // Automatically fix all code issues on save.
+        "source.fixAll.unusedImports": true, // Remove unused imports on save.
+        "source.organizeImports": true // Organize imports on save.
+      },
+      "python.languageServer": "Pylance", // Use the Pylance language server for Python.
+      "python.formatting.autopep8Args": [
+        "--indent-size=4",
+        "--max-line-length=80"
+      ],
+      "python.linting.flake8Args": [], // No specific arguments for Flake8 linting.
+      "python.linting.flake8Enabled": true, // Enable Flake8 linting.
+      "python.linting.mypyEnabled": true, // Enable Mypy static type checking.
+      "python.testing.unittestEnabled": false, // Disable unittest testing.
+      "python.testing.pytestEnabled": true, // Enable pytest testing.
+      "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnknownMemberType": "none",
+        "reportUnknownArgumentType": "none",
+        "reportUnknownVariableType": "none",
+        "reportUnknownLambdaType": "none",
+        "reportUnknownParameterType": "none"
+      },
+      "python.analysis.typeCheckingMode": "basic" // Set type checking mode to basic.
+    },
+  
+    // Other Settings
+    "cSpell.enabled": true,
+    "python.formatting.provider": "none" // Enable spell checking.
+  }
+  
