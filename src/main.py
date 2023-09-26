@@ -6,10 +6,12 @@ from info import Info
 from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import QApplication, QLineEdit
 from variables import WINDOW_ICON_PATH
+from styles import setupTheme
 
 if __name__ == '__main__':
     # Cria a aplicação
     app = QApplication(sys.argv)
+    setupTheme()
     window = MainWindow()
 
     # Define o ícone
