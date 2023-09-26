@@ -7,6 +7,7 @@ from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import QApplication, QLineEdit
 from variables import WINDOW_ICON_PATH
 from styles import setupTheme
+from buttons_ import Button
 
 if __name__ == '__main__':
     # Cria a aplicação
@@ -28,6 +29,10 @@ if __name__ == '__main__':
     display = Display()
     # display.setPlaceholderText('Write thing')
     window.addToVLayout(display)
+
+    # Button
+    button = Button('Texto')
+    window.addToVLayout(button)
 
     # Executa tudo
     window.adjustFixedSize()
