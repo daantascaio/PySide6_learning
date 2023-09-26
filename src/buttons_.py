@@ -59,7 +59,7 @@ class ButtonsGrid(QGridLayout):
 
                     buttonSlot0 = self._makeButtonDisplaySlot(
                         self._insertButtonTextToDisplay, button0
-                    )
+                    )2
 
                     button0.clicked.connect(buttonSlot0)
 
