@@ -15,8 +15,6 @@ class Button(QPushButton):
         font.setPixelSize(MEDIUM_FONT_SIZE)
         self.setFont(font)
         self.setMinimumSize(75, 75)
-        self.setCheckable(True)
-        # self.setContentsMargins(0, 0, 0, 0)
 
 
 class ButtonsGrid(QGridLayout):
