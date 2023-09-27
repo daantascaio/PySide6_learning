@@ -22,7 +22,7 @@ if __name__ == '__main__':
     app.setWindowIcon(icon)
 
     # Info
-    info = Info('2 + 2 = 4')
+    info = Info('')
     window.addWidgetToVLayout(info)
 
     # Display
@@ -31,7 +31,7 @@ if __name__ == '__main__':
     window.addWidgetToVLayout(display)
 
     # Grid
-    buttonsGrid = ButtonsGrid(display)
+    buttonsGrid = ButtonsGrid(display, info)
     window.vLayout.addLayout(buttonsGrid)
 
     # Executa tudo
